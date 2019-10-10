@@ -26,7 +26,6 @@ function setup() {
 }
   }
   //hue = 0;
-}
 
 
 function draw() {
