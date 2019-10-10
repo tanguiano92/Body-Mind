@@ -23,6 +23,8 @@ function setup() {
     line (j * 150, windowWidth, 0, i * 150);
     }
   }
+}
+  }
   //hue = 0;
 }
 
