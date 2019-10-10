@@ -7,6 +7,12 @@ let array = [];
 
 
 function setup() {
+
+  //hue = 0;
+}
+
+
+function draw() {
   createCanvas(windowWidth, windowHeight);
   background(0);
 
@@ -30,11 +36,7 @@ function setup() {
       }
     }
   }
-  //hue = 0;
-}
-
-
-function draw() {
+  
   background(0, 0, 0, 3);
 if (mouseIsPressed){
  line(width - mouseX, height - mouseY, width - pmouseX, height - pmouseY);
