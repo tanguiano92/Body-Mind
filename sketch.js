@@ -13,21 +13,14 @@ function setup() {
 
   stroke(82, 2, 2);
 
-  for (let i = 0; i < 10; i++) {
-    line(i * 50, 0, windowWidth, i * 50);
-    //ine (500, 500, i * 50, 0);
+    for (let j = 0; j < 10; j ++){
+     for (let i = 0; i < 10; i ++){
+    line (j * 150, 0, windowWidth, i * 150);
+    }
 
-    for (let i = 0; i < 10; i++) {
-      line(i * 50, windowWidth, 0, i * 50);
-
-      for (let i = 0; i < 10; i++) {
-        line(windowWidth, 0, i * 50, i * 50);
-
-        for (let i = 0; i < 10; i++) {
-          line(i * 50, i * 50, 0, windowWidth);
-
-        }
-      }
+       for (let j = 0; j < 10; j ++){
+     for (let i = 0; i < 10; i ++){
+    line (j * 150, windowWidth, 0, i * 150);
     }
   }
   //hue = 0;
